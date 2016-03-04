@@ -5,13 +5,14 @@
 
 		<div ng-controller="MessagingCtrl">
 			<h1>{{title}}</h1>
-
+			{{value}}
 			<label ng-init="apiCheck()"> Slack Api Status: <strong>{{status}}</strong></label>  
 		
 		</div>
 		<script type="text/javascript" src="bower_components/angular/angular.js"></script>
 		<script type="text/javascript" src="app.js"></script>
 		<script type="text/javascript" src="controllers/Messaging.js"></script>
+		<script type="text/javascript" src="factory/Requests.js"></script>
 
 	</body>
 </html>
